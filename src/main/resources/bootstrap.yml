@@ -1,0 +1,24 @@
+server.port: 8080
+
+spring:
+  application.name: news
+  cloud.config:
+    discovery:
+      enabled: true
+      serviceId: config-server
+    fail-fast: true
+    retry:
+      initialInterval: 2000
+      maxAttempts: 30
+  mvc.servlet.load-on-startup: 1
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://discovery:8080/eureka/
+    registryFetchIntervalSeconds: 1
+  instance:
+    leaseRenewalIntervalInSeconds: 1
+
+vaadin.urlMapping: /ui/*
+server.servlet.context-path: /
