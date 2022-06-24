@@ -1,4 +1,4 @@
-package com.example.newsapplication;
+package be.intecbrussel.news;
 
 import java.io.Serializable;
 

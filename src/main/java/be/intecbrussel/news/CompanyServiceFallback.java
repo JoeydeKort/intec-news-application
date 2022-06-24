@@ -1,4 +1,4 @@
-package com.example.newsapplication;
+package be.intecbrussel.news;
 
 import org.springframework.hateoas.CollectionModel;
 import org.springframework.stereotype.Service;

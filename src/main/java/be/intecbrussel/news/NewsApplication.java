@@ -1,4 +1,4 @@
-package com.example.newsapplication;
+package be.intecbrussel.news;
 
 import com.fasterxml.jackson.databind.Module;
 import com.hazelcast.config.Config;

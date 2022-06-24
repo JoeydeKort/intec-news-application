@@ -1,4 +1,4 @@
-package com.example.newsapplication;
+package be.intecbrussel.news;
 
 import com.vaadin.flow.spring.SpringServlet;
 import org.springframework.context.ApplicationContext;
