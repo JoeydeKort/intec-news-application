@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+
+  app:
+    image: joeydekort/intec-news-application:dev
+    ports:
+      - "8084:8084"

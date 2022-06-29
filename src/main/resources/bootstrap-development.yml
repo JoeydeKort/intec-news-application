@@ -21,4 +21,4 @@ feign.hystrix.enabled: true
 
 hazelcast.max.no.heartbeat.seconds: 60
 
-business.url: http://business:8080
+business.url: http://localhost:8082
